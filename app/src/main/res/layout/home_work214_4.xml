@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeWork214_4"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Write a program to input marks of
+five subjects Physics, Chemistry,
+Biology, Mathematics and Computer.
+Calculate percentage and grade
+according to following:"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_margin="10dp"/>
+
+
+
+
+    <EditText
+        android:id="@+id/edbangla"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Bangla marks input"
+        android:textSize="20dp"
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:id="@+id/edenglish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="English marks input"
+        android:inputType="numberDecimal"
+        android:textSize="20dp"/>
+
+
+    <EditText
+        android:id="@+id/edmath"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Math marks input"
+        android:inputType="numberDecimal"
+        android:textSize="20dp"/>
+
+
+    <EditText
+        android:id="@+id/edphysics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Physics marks input"
+        android:inputType="numberDecimal"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/edchemestry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Chemestry marks input"
+        android:inputType="numberDecimal"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/edbiology"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Biology marks input"
+        android:inputType="numberDecimal"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/resultbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click Result"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/tvresult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+
+</ScrollView>
